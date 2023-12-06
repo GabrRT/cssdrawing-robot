@@ -1,0 +1,64 @@
+/* Body of the character */
+.character-body {
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+    border-radius: 100px 100px 60px 60px;
+    position: relative;
+  }
+  
+  /* Eye - Left */
+  .character-eye-left {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  /* Eye - Right */
+  .character-eye-right {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+  }
+  
+  /* Pupil - Left */
+  .character-pupil-left {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+  }
+  
+  /* Pupil - Right */
+  .character-pupil-right {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+  }
+  
+  /* Mouth */
+  .character-mouth {
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    border-radius: 10px;
+  }
+  
